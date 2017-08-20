@@ -45,7 +45,6 @@ public class SpringParameterizedTest {
         return Arrays.asList(data);
     }
 
-
     @Test
     public void testMultiplyException() {
         assertEquals("Result", m1 * m2, computer.multiply(m1, m2));
